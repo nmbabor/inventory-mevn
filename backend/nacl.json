@@ -1,0 +1,957 @@
+[
+  {
+    "group": "superadmin",
+    "permissions": [
+      {
+        "resource": "roles/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "users/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "permissions/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "module/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "departments/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "permission-role/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "company/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "districts/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "reports/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "primary-info/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sub-menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "attendance/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "mail/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sms/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "depot/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "area/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "category/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "units/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "product/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "vendor/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "designation/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "section/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "employee/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "frontend/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "system",
+    "permissions": [
+      {
+        "resource": "asd/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "test/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "frontend/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "roles/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "users/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "permissions/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "module/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "departments/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "settings/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "permission-role/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget-distribution/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget-head/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget-session/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "frontend/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "superadmin",
+    "permissions": [
+      {
+        "resource": "roles/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "users/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "permissions/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "module/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "departments/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "settings/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "permission-role/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget-distribution/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget-head/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "budget-session/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "company/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "budget-find/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "ntr-find/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "welfare-find/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "employees/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "salary-grade/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "salary-step/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "districts/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "ranks/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "regiments/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "reports/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "primary-info/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sub-menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "attendance/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "office-schedule/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "performance/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "award/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "punishment/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "termination/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "transfer/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "mail/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sms/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "frontend/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "systemadmin",
+    "permissions": [
+      {
+        "resource": "roles/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "users/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "permissions/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "module/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "departments/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "settings/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "permission-role/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "company/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "districts/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "reports/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "primary-info/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sub-menu/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "attendance/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "mail/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sms/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "frontend/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "regiment",
+    "permissions": [
+      {
+        "resource": "welfare/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "ntr/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "expenditure/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "bank-book/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "bank-withdraw/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "welfare-expenditure/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "employees/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "salary-grade/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "salary-step/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "districts/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "ranks/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "attendance/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "performance/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "award/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "punishment/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "termination/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "transfer/*",
+        "methods": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "action": "allow"
+      },
+      {
+        "resource": "mail/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "sms/*",
+        "methods": "*",
+        "action": "allow"
+      },
+      {
+        "resource": "frontend/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  }
+]

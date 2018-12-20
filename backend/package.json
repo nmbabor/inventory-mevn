@@ -1,0 +1,43 @@
+{
+  "name": "inventory-backend",
+  "version": "1.0.0",
+  "description": "Inventory Management System API ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "ExpressJs",
+    "MongoDB"
+  ],
+  "author": "leamtech",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-acl": "^2.0.4",
+    "express-fileupload": "^1.0.0",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "fast-csv": "^2.4.1",
+    "jsonwebtoken": "^8.4.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.12",
+    "mongoose-transactions": "^1.1.1",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0",
+    "path": "^0.12.7",
+    "read-excel-file": "^2.0.6",
+    "sharp": "^0.21.0",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6"
+  }
+}

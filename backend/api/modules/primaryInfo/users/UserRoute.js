@@ -1,0 +1,10 @@
+const express=require('express')
+const route=express.Router()
+const Controller = require('./UserController')
+route.get('/', Controller.index)
+route.post('/', Controller.store)
+route.get('/roles', Controller.roles)
+route.get('/company', Controller.company)
+route.get('/:id', Controller.edit)
+route.put('/:id', Controller.update)
+module.exports = route
